@@ -9,11 +9,27 @@
             echo "<pre>\n</pre>";
             //print_r($US_Capitols);
             echo "<pre>\n</pre>";
+            echo count($US_Capitols);
+            echo "<pre>\n</pre>";
+
+            global $range;
+            $range = rand(1,count($US_Capitols));
+            echo $range;
+            echo "<pre>\n</pre>";
+            echo $US_Capitols["Alabama"];
+            global $count;
+            $count = 1;
+            /*
             foreach($US_Capitols as $attributes =>$City){
+                echo $count." ";
+                $count = $count+1;
                 echo"$attributes state capitol is: $City";
                 echo "<pre>\n</pre>";
+                    if ($count > $range) {
+                        break;
+                    }
             }
-
+            */
         ?>
     </body?>
 </html>
