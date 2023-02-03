@@ -28,7 +28,7 @@
             foreach($US_Capitols as $attributes =>$City){
                 echo $count." ";
                 $count = $count+1;
-                echo"$attributes state capitol is: $City";
+                echo"$attributes state capitol city is: $City";
                 echo "<pre>\n</pre>";
                 /*
                     if ($count > $range) {
