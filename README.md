@@ -1,5 +1,5 @@
-# US_States_Capitols
-US - States Capitols
+# US_States_CapitAls
+US - States CapitAls
 
 Description [02/02/2023]
 
